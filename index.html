@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework15</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./assets/pod1.svg" alt="">
+        </header>
+        <div class="bigbox">
+            <div class="bigboxtxt">
+                <h1>Publish your podcasts
+                    <span>everywhere.</span></h1>
+                    <h2>Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!</h2>
+            </div>
+            <div class="bigboximg">
+                <div class="socialmedia">
+                    <img src="./assets/1.svg" alt="">
+                    <img src="./assets/2.svg" alt="">
+                    <img src="./assets/3.svg" alt="">
+                    <img src="./assets/4.svg" alt="">
+                </div>
+                <div class="bigboxbutton">
+                    <form>
+                        <div class="hero">
+                            <div class="input-group">
+                                <label id="email-label">Email addres</label>
+                                <input type="email" spellcheck="false" id="email-field" onkeyup="validateEmail()">
+                                <span id="email-error"></span>
+                            </div>
+                        </div>
+                        <button type="button">Request Access</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer></footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
