@@ -7,11 +7,17 @@
     header{
         padding: 50px 600px 162px 10px;
     }
+    .bbb{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
     .bigbox{
         width: 635px;
         height: 509px;
         flex-shrink: 0;
         background: #121725;
+        padding-right: 125px;
     }
     h1{
         width: 635px;
