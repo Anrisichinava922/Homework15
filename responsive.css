@@ -1,8 +1,8 @@
 @media (width > 768px){
     body{
         height: 100vh;
-        background-image: url(./assets/tbback.svg) , url(./assets/footerback.svg);
-        background-position: 100% 0% , 10% 150%;
+        background-image: url(./assets/tbback.svg);
+        background-position: 100% 0%;
     }
     header{
         padding: 50px 600px 162px 10px;
@@ -83,14 +83,17 @@
         height: 29px;
         flex-shrink: 0;
     }
+    footer img{
+        display: block;
+    }
 }
 
 
 
 @media (width > 1440px){
     body{
-        background-image: url(./assets/deskback.svg) , url(./assets/footerback.svg);
-        background-position: 100% 150% , 100% 120%;
+        background-image: url(./assets/deskback.svg);
+        background-position: 100% 150%;
     }
     footer{
         height: 130px;
@@ -123,5 +126,9 @@
     }
     .socialmedia{
         margin-left: -40px;
+    }
+    footer img{
+        margin-left: 1200px;
+        margin-top: -185px;
     }
 }
